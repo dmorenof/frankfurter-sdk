@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 namespace FrankfurterSDK\DTOs;
 
+/** @extends \Dmorenof\SdkRuntime\Map<string> */
 final class Currencies extends \Dmorenof\SdkRuntime\Map
 {
     protected const string VALUE_TYPE = 'string';
